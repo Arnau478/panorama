@@ -1,0 +1,12 @@
+"filename", "language", "C++", "C", "Makefile", "comment", "blank", "total"
+"/home/arnau/Documentos/clox/Makefile", "Makefile", 0, 0, 10, 9, 4, 23
+"/home/arnau/Documentos/clox/chunk.c", "C", 0, 21, 0, 0, 5, 26
+"/home/arnau/Documentos/clox/chunk.h", "C++", 15, 0, 0, 0, 5, 20
+"/home/arnau/Documentos/clox/common.h", "C++", 6, 0, 0, 0, 2, 8
+"/home/arnau/Documentos/clox/debug.c", "C", 0, 23, 0, 0, 6, 29
+"/home/arnau/Documentos/clox/debug.h", "C++", 6, 0, 0, 0, 3, 9
+"/home/arnau/Documentos/clox/main.c", "C", 0, 11, 0, 0, 3, 14
+"/home/arnau/Documentos/clox/memory.h", "C++", 19, 0, 0, 0, 7, 26
+"/home/arnau/Documentos/clox/value.c", "C", 0, 18, 0, 0, 5, 23
+"/home/arnau/Documentos/clox/value.h", "C++", 13, 0, 0, 0, 5, 18
+"Total", "-", 59, 73, 10, 9, 45, 196
