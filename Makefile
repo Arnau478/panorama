@@ -14,10 +14,10 @@ OBJECTS := $(addprefix $(BUILD_DIR)/$(NAME)/, $(notdir $(SOURCES:.c=.o)))
 
 # Compile the C interpreter.
 default:
-	@ $(MAKE) -f ./c.make NAME=clox MODE=release SOURCE_DIR=.
-	@ cp build/clox clox # For convenience, copy the interpreter to the top level.
+	@ $(MAKE) -f ./c.make NAME=panorama MODE=release SOURCE_DIR=.
+	@ cp build/panorama panorama # For convenience, copy the interpreter to the top level.
 
-# Compile a debug build of clox.
+# Compile a debug build of panorama.
 debug:
-	@ $(MAKE) -f ./c.make NAME=cloxd MODE=debug SOURCE_DIR=.
-	@ cp build/cloxd clox # For convenience, copy the interpreter to the top level.
+	@ $(MAKE) -f ./c.make NAME=panoramad MODE=debug SOURCE_DIR=.
+	@ cp build/panoramad panorama # For convenience, copy the interpreter to the top level.

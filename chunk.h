@@ -1,5 +1,5 @@
-#ifndef clox_chunk_h
-#define clox_chunk_h
+#ifndef panorama_chunk_h
+#define panorama_chunk_h
 
 #include "common.h"
 #include "value.h"

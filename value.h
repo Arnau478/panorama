@@ -1,5 +1,5 @@
-#ifndef clox_value_h
-#define clox_value_h
+#ifndef panorama_value_h
+#define panorama_value_h
 
 #include "common.h"
 
