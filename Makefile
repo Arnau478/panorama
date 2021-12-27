@@ -21,3 +21,7 @@ default:
 debug:
 	@ $(MAKE) -f ./c.make NAME=panoramad MODE=debug SOURCE_DIR=.
 	@ cp build/panoramad panorama # For convenience, copy the interpreter to the top level.
+
+clean:
+	@ rm -r build/
+	@ rm panorama

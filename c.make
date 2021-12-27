@@ -5,7 +5,7 @@
 # NAME         Name of the output executable (and object file directory).
 # SOURCE_DIR   Directory where source files and headers are found.
 
-CFLAGS := -std=c99 -Wall -Wextra -Werror -Wno-unused-parameter -Wno-unused-function
+CFLAGS := -std=c99 -Wall -Wextra -Werror -Wno-unused-parameter
 
 # If we're building at a point in the middle of a chapter, don't fail if there
 # are functions that aren't used yet.
